@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		756568591EA5A98300A80466 /* XRTDrawToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 756568581EA5A98300A80466 /* XRTDrawToolView.m */; };
+		7565685C1EA5B0BD00A80466 /* XRTDrawButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565685B1EA5B0BD00A80466 /* XRTDrawButton.m */; };
+		756568621EA5F1AF00A80466 /* UIView+DrawScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 756568611EA5F1AF00A80466 /* UIView+DrawScreenShot.m */; };
+		756568651EA5FA0800A80466 /* XRTDrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 756568641EA5FA0800A80466 /* XRTDrawViewController.m */; };
+		756568681EA60A7B00A80466 /* UIColor+DrawExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 756568671EA60A7A00A80466 /* UIColor+DrawExtension.m */; };
+		75F671F71E971F9A00DD31B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F671F61E971F9A00DD31B5 /* main.m */; };
+		75F671FA1E971F9A00DD31B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F671F91E971F9A00DD31B5 /* AppDelegate.m */; };
+		75F671FD1E971F9A00DD31B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F671FC1E971F9A00DD31B5 /* ViewController.m */; };
+		75F672001E971F9A00DD31B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F671FE1E971F9A00DD31B5 /* Main.storyboard */; };
+		75F672021E971F9A00DD31B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F672011E971F9A00DD31B5 /* Assets.xcassets */; };
+		75F672051E971F9A00DD31B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F672031E971F9A00DD31B5 /* LaunchScreen.storyboard */; };
+		75F672101E971F9A00DD31B5 /* XRTDrawBoarderViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6720F1E971F9A00DD31B5 /* XRTDrawBoarderViewTests.m */; };
+		75F6721B1E971F9A00DD31B5 /* XRTDrawBoarderViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6721A1E971F9A00DD31B5 /* XRTDrawBoarderViewUITests.m */; };
+		75F6722C1E97220D00DD31B5 /* XRTDrawBoarder.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6722B1E97220D00DD31B5 /* XRTDrawBoarder.m */; };
+		75F6722F1E97258800DD31B5 /* XRTDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6722E1E97258800DD31B5 /* XRTDrawView.m */; };
+		75F672321E972A4B00DD31B5 /* XRTDrawerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F672311E972A4B00DD31B5 /* XRTDrawerConfiguration.m */; };
+		75F672351E9731B800DD31B5 /* XRTDrawLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F672341E9731B800DD31B5 /* XRTDrawLayer.m */; };
+		75F672381E97365500DD31B5 /* XRTDrawBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F672371E97365500DD31B5 /* XRTDrawBezierPath.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75F6720C1E971F9A00DD31B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75F671EA1E971F9A00DD31B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75F671F11E971F9A00DD31B5;
+			remoteInfo = XRTDrawBoarderView;
+		};
+		75F672171E971F9A00DD31B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75F671EA1E971F9A00DD31B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75F671F11E971F9A00DD31B5;
+			remoteInfo = XRTDrawBoarderView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		756568571EA5A98300A80466 /* XRTDrawToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRTDrawToolView.h; sourceTree = "<group>"; };
+		756568581EA5A98300A80466 /* XRTDrawToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRTDrawToolView.m; sourceTree = "<group>"; };
+		7565685A1EA5B0BD00A80466 /* XRTDrawButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRTDrawButton.h; sourceTree = "<group>"; };
+		7565685B1EA5B0BD00A80466 /* XRTDrawButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRTDrawButton.m; sourceTree = "<group>"; };
+		756568601EA5F1AF00A80466 /* UIView+DrawScreenShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DrawScreenShot.h"; sourceTree = "<group>"; };
+		756568611EA5F1AF00A80466 /* UIView+DrawScreenShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DrawScreenShot.m"; sourceTree = "<group>"; };
+		756568631EA5FA0800A80466 /* XRTDrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRTDrawViewController.h; sourceTree = "<group>"; };
+		756568641EA5FA0800A80466 /* XRTDrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRTDrawViewController.m; sourceTree = "<group>"; };
+		756568661EA60A7A00A80466 /* UIColor+DrawExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+DrawExtension.h"; sourceTree = "<group>"; };
+		756568671EA60A7A00A80466 /* UIColor+DrawExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DrawExtension.m"; sourceTree = "<group>"; };
+		75F671F21E971F9A00DD31B5 /* XRTDrawBoarderView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XRTDrawBoarderView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F671F61E971F9A00DD31B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75F671F81E971F9A00DD31B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		75F671F91E971F9A00DD31B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		75F671FB1E971F9A00DD31B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		75F671FC1E971F9A00DD31B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75F671FF1E971F9A00DD31B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75F672011E971F9A00DD31B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75F672041E971F9A00DD31B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75F672061E971F9A00DD31B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75F6720B1E971F9A00DD31B5 /* XRTDrawBoarderViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XRTDrawBoarderViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F6720F1E971F9A00DD31B5 /* XRTDrawBoarderViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRTDrawBoarderViewTests.m; sourceTree = "<group>"; };
+		75F672111E971F9A00DD31B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75F672161E971F9A00DD31B5 /* XRTDrawBoarderViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XRTDrawBoarderViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75F6721A1E971F9A00DD31B5 /* XRTDrawBoarderViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XRTDrawBoarderViewUITests.m; sourceTree = "<group>"; };
+		75F6721C1E971F9A00DD31B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75F6722A1E97220D00DD31B5 /* XRTDrawBoarder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRTDrawBoarder.h; sourceTree = "<group>"; };
+		75F6722B1E97220D00DD31B5 /* XRTDrawBoarder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRTDrawBoarder.m; sourceTree = "<group>"; };
+		75F6722D1E97258800DD31B5 /* XRTDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRTDrawView.h; sourceTree = "<group>"; };
+		75F6722E1E97258800DD31B5 /* XRTDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRTDrawView.m; sourceTree = "<group>"; };
+		75F672301E972A4B00DD31B5 /* XRTDrawerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRTDrawerConfiguration.h; sourceTree = "<group>"; };
+		75F672311E972A4B00DD31B5 /* XRTDrawerConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRTDrawerConfiguration.m; sourceTree = "<group>"; };
+		75F672331E9731B800DD31B5 /* XRTDrawLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRTDrawLayer.h; sourceTree = "<group>"; };
+		75F672341E9731B800DD31B5 /* XRTDrawLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRTDrawLayer.m; sourceTree = "<group>"; };
+		75F672361E97365500DD31B5 /* XRTDrawBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRTDrawBezierPath.h; sourceTree = "<group>"; };
+		75F672371E97365500DD31B5 /* XRTDrawBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRTDrawBezierPath.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75F671EF1E971F9A00DD31B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F672081E971F9A00DD31B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F672131E971F9A00DD31B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75F671E91E971F9A00DD31B5 = {
+			isa = PBXGroup;
+			children = (
+				75F671F41E971F9A00DD31B5 /* XRTDrawBoarderView */,
+				75F6720E1E971F9A00DD31B5 /* XRTDrawBoarderViewTests */,
+				75F672191E971F9A00DD31B5 /* XRTDrawBoarderViewUITests */,
+				75F671F31E971F9A00DD31B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75F671F31E971F9A00DD31B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75F671F21E971F9A00DD31B5 /* XRTDrawBoarderView.app */,
+				75F6720B1E971F9A00DD31B5 /* XRTDrawBoarderViewTests.xctest */,
+				75F672161E971F9A00DD31B5 /* XRTDrawBoarderViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75F671F41E971F9A00DD31B5 /* XRTDrawBoarderView */ = {
+			isa = PBXGroup;
+			children = (
+				75F672281E971FA100DD31B5 /* View */,
+				75F671F81E971F9A00DD31B5 /* AppDelegate.h */,
+				75F671F91E971F9A00DD31B5 /* AppDelegate.m */,
+				75F671FB1E971F9A00DD31B5 /* ViewController.h */,
+				75F671FC1E971F9A00DD31B5 /* ViewController.m */,
+				75F671FE1E971F9A00DD31B5 /* Main.storyboard */,
+				75F672011E971F9A00DD31B5 /* Assets.xcassets */,
+				75F672031E971F9A00DD31B5 /* LaunchScreen.storyboard */,
+				75F672061E971F9A00DD31B5 /* Info.plist */,
+				75F671F51E971F9A00DD31B5 /* Supporting Files */,
+			);
+			path = XRTDrawBoarderView;
+			sourceTree = "<group>";
+		};
+		75F671F51E971F9A00DD31B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75F671F61E971F9A00DD31B5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75F6720E1E971F9A00DD31B5 /* XRTDrawBoarderViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				75F6720F1E971F9A00DD31B5 /* XRTDrawBoarderViewTests.m */,
+				75F672111E971F9A00DD31B5 /* Info.plist */,
+			);
+			path = XRTDrawBoarderViewTests;
+			sourceTree = "<group>";
+		};
+		75F672191E971F9A00DD31B5 /* XRTDrawBoarderViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				75F6721A1E971F9A00DD31B5 /* XRTDrawBoarderViewUITests.m */,
+				75F6721C1E971F9A00DD31B5 /* Info.plist */,
+			);
+			path = XRTDrawBoarderViewUITests;
+			sourceTree = "<group>";
+		};
+		75F672281E971FA100DD31B5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75F6722A1E97220D00DD31B5 /* XRTDrawBoarder.h */,
+				75F6722B1E97220D00DD31B5 /* XRTDrawBoarder.m */,
+				75F6722D1E97258800DD31B5 /* XRTDrawView.h */,
+				75F6722E1E97258800DD31B5 /* XRTDrawView.m */,
+				75F672301E972A4B00DD31B5 /* XRTDrawerConfiguration.h */,
+				75F672311E972A4B00DD31B5 /* XRTDrawerConfiguration.m */,
+				75F672331E9731B800DD31B5 /* XRTDrawLayer.h */,
+				75F672341E9731B800DD31B5 /* XRTDrawLayer.m */,
+				75F672361E97365500DD31B5 /* XRTDrawBezierPath.h */,
+				75F672371E97365500DD31B5 /* XRTDrawBezierPath.m */,
+				756568571EA5A98300A80466 /* XRTDrawToolView.h */,
+				756568581EA5A98300A80466 /* XRTDrawToolView.m */,
+				7565685A1EA5B0BD00A80466 /* XRTDrawButton.h */,
+				7565685B1EA5B0BD00A80466 /* XRTDrawButton.m */,
+				756568601EA5F1AF00A80466 /* UIView+DrawScreenShot.h */,
+				756568611EA5F1AF00A80466 /* UIView+DrawScreenShot.m */,
+				756568631EA5FA0800A80466 /* XRTDrawViewController.h */,
+				756568641EA5FA0800A80466 /* XRTDrawViewController.m */,
+				756568661EA60A7A00A80466 /* UIColor+DrawExtension.h */,
+				756568671EA60A7A00A80466 /* UIColor+DrawExtension.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75F671F11E971F9A00DD31B5 /* XRTDrawBoarderView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F6721F1E971F9A00DD31B5 /* Build configuration list for PBXNativeTarget "XRTDrawBoarderView" */;
+			buildPhases = (
+				75F671EE1E971F9A00DD31B5 /* Sources */,
+				75F671EF1E971F9A00DD31B5 /* Frameworks */,
+				75F671F01E971F9A00DD31B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XRTDrawBoarderView;
+			productName = XRTDrawBoarderView;
+			productReference = 75F671F21E971F9A00DD31B5 /* XRTDrawBoarderView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75F6720A1E971F9A00DD31B5 /* XRTDrawBoarderViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F672221E971F9A00DD31B5 /* Build configuration list for PBXNativeTarget "XRTDrawBoarderViewTests" */;
+			buildPhases = (
+				75F672071E971F9A00DD31B5 /* Sources */,
+				75F672081E971F9A00DD31B5 /* Frameworks */,
+				75F672091E971F9A00DD31B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75F6720D1E971F9A00DD31B5 /* PBXTargetDependency */,
+			);
+			name = XRTDrawBoarderViewTests;
+			productName = XRTDrawBoarderViewTests;
+			productReference = 75F6720B1E971F9A00DD31B5 /* XRTDrawBoarderViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75F672151E971F9A00DD31B5 /* XRTDrawBoarderViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75F672251E971F9A00DD31B5 /* Build configuration list for PBXNativeTarget "XRTDrawBoarderViewUITests" */;
+			buildPhases = (
+				75F672121E971F9A00DD31B5 /* Sources */,
+				75F672131E971F9A00DD31B5 /* Frameworks */,
+				75F672141E971F9A00DD31B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75F672181E971F9A00DD31B5 /* PBXTargetDependency */,
+			);
+			name = XRTDrawBoarderViewUITests;
+			productName = XRTDrawBoarderViewUITests;
+			productReference = 75F672161E971F9A00DD31B5 /* XRTDrawBoarderViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75F671EA1E971F9A00DD31B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = wyy;
+				TargetAttributes = {
+					75F671F11E971F9A00DD31B5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 65Y8F76Y6Z;
+						ProvisioningStyle = Automatic;
+					};
+					75F6720A1E971F9A00DD31B5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 65Y8F76Y6Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75F671F11E971F9A00DD31B5;
+					};
+					75F672151E971F9A00DD31B5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 65Y8F76Y6Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 75F671F11E971F9A00DD31B5;
+					};
+				};
+			};
+			buildConfigurationList = 75F671ED1E971F9A00DD31B5 /* Build configuration list for PBXProject "XRTDrawBoarderView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75F671E91E971F9A00DD31B5;
+			productRefGroup = 75F671F31E971F9A00DD31B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75F671F11E971F9A00DD31B5 /* XRTDrawBoarderView */,
+				75F6720A1E971F9A00DD31B5 /* XRTDrawBoarderViewTests */,
+				75F672151E971F9A00DD31B5 /* XRTDrawBoarderViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75F671F01E971F9A00DD31B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F672051E971F9A00DD31B5 /* LaunchScreen.storyboard in Resources */,
+				75F672021E971F9A00DD31B5 /* Assets.xcassets in Resources */,
+				75F672001E971F9A00DD31B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F672091E971F9A00DD31B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F672141E971F9A00DD31B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75F671EE1E971F9A00DD31B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F672381E97365500DD31B5 /* XRTDrawBezierPath.m in Sources */,
+				756568591EA5A98300A80466 /* XRTDrawToolView.m in Sources */,
+				7565685C1EA5B0BD00A80466 /* XRTDrawButton.m in Sources */,
+				75F671FD1E971F9A00DD31B5 /* ViewController.m in Sources */,
+				75F6722F1E97258800DD31B5 /* XRTDrawView.m in Sources */,
+				756568681EA60A7B00A80466 /* UIColor+DrawExtension.m in Sources */,
+				756568651EA5FA0800A80466 /* XRTDrawViewController.m in Sources */,
+				75F672321E972A4B00DD31B5 /* XRTDrawerConfiguration.m in Sources */,
+				75F671FA1E971F9A00DD31B5 /* AppDelegate.m in Sources */,
+				75F6722C1E97220D00DD31B5 /* XRTDrawBoarder.m in Sources */,
+				75F672351E9731B800DD31B5 /* XRTDrawLayer.m in Sources */,
+				756568621EA5F1AF00A80466 /* UIView+DrawScreenShot.m in Sources */,
+				75F671F71E971F9A00DD31B5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F672071E971F9A00DD31B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F672101E971F9A00DD31B5 /* XRTDrawBoarderViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F672121E971F9A00DD31B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F6721B1E971F9A00DD31B5 /* XRTDrawBoarderViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75F6720D1E971F9A00DD31B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75F671F11E971F9A00DD31B5 /* XRTDrawBoarderView */;
+			targetProxy = 75F6720C1E971F9A00DD31B5 /* PBXContainerItemProxy */;
+		};
+		75F672181E971F9A00DD31B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75F671F11E971F9A00DD31B5 /* XRTDrawBoarderView */;
+			targetProxy = 75F672171E971F9A00DD31B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75F671FE1E971F9A00DD31B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75F671FF1E971F9A00DD31B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75F672031E971F9A00DD31B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75F672041E971F9A00DD31B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75F6721D1E971F9A00DD31B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75F6721E1E971F9A00DD31B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75F672201E971F9A00DD31B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65Y8F76Y6Z;
+				INFOPLIST_FILE = XRTDrawBoarderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xw.XRTDrawBoarderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		75F672211E971F9A00DD31B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 65Y8F76Y6Z;
+				INFOPLIST_FILE = XRTDrawBoarderView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xw.XRTDrawBoarderView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		75F672231E971F9A00DD31B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65Y8F76Y6Z;
+				INFOPLIST_FILE = XRTDrawBoarderViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xw.XRTDrawBoarderViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XRTDrawBoarderView.app/XRTDrawBoarderView";
+			};
+			name = Debug;
+		};
+		75F672241E971F9A00DD31B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 65Y8F76Y6Z;
+				INFOPLIST_FILE = XRTDrawBoarderViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xw.XRTDrawBoarderViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XRTDrawBoarderView.app/XRTDrawBoarderView";
+			};
+			name = Release;
+		};
+		75F672261E971F9A00DD31B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 65Y8F76Y6Z;
+				INFOPLIST_FILE = XRTDrawBoarderViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xw.XRTDrawBoarderViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XRTDrawBoarderView;
+			};
+			name = Debug;
+		};
+		75F672271E971F9A00DD31B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 65Y8F76Y6Z;
+				INFOPLIST_FILE = XRTDrawBoarderViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xw.XRTDrawBoarderViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XRTDrawBoarderView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75F671ED1E971F9A00DD31B5 /* Build configuration list for PBXProject "XRTDrawBoarderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F6721D1E971F9A00DD31B5 /* Debug */,
+				75F6721E1E971F9A00DD31B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F6721F1E971F9A00DD31B5 /* Build configuration list for PBXNativeTarget "XRTDrawBoarderView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F672201E971F9A00DD31B5 /* Debug */,
+				75F672211E971F9A00DD31B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F672221E971F9A00DD31B5 /* Build configuration list for PBXNativeTarget "XRTDrawBoarderViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F672231E971F9A00DD31B5 /* Debug */,
+				75F672241E971F9A00DD31B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75F672251E971F9A00DD31B5 /* Build configuration list for PBXNativeTarget "XRTDrawBoarderViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75F672261E971F9A00DD31B5 /* Debug */,
+				75F672271E971F9A00DD31B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75F671EA1E971F9A00DD31B5 /* Project object */;
+}
