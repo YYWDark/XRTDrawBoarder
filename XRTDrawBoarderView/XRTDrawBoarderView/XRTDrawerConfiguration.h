@@ -13,8 +13,6 @@
 @property (nonatomic, assign) CGFloat lineWidth;
 @property (nonatomic, assign) CGFloat toolViewHeight;
 @property (nonatomic, assign) BOOL isShowingToolview;
-
+@property (nonatomic, strong) UIImage *souceImage;
 @property (nonatomic, copy) NSString *strokeColorHex;
-//@property (nonatomic, copy) NSString *fillColorHex;
-
 @end

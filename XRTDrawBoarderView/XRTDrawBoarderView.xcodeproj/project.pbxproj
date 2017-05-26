@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7545F7DE1ED7FC06008A8B28 /* icon_add.png in Resources */ = {isa = PBXBuildFile; fileRef = 7545F7DD1ED7FC06008A8B28 /* icon_add.png */; };
 		756568591EA5A98300A80466 /* XRTDrawToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 756568581EA5A98300A80466 /* XRTDrawToolView.m */; };
 		7565685C1EA5B0BD00A80466 /* XRTDrawButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7565685B1EA5B0BD00A80466 /* XRTDrawButton.m */; };
 		756568621EA5F1AF00A80466 /* UIView+DrawScreenShot.m in Sources */ = {isa = PBXBuildFile; fileRef = 756568611EA5F1AF00A80466 /* UIView+DrawScreenShot.m */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7545F7DD1ED7FC06008A8B28 /* icon_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_add.png; sourceTree = "<group>"; };
 		756568571EA5A98300A80466 /* XRTDrawToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRTDrawToolView.h; sourceTree = "<group>"; };
 		756568581EA5A98300A80466 /* XRTDrawToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRTDrawToolView.m; sourceTree = "<group>"; };
 		7565685A1EA5B0BD00A80466 /* XRTDrawButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRTDrawButton.h; sourceTree = "<group>"; };
@@ -108,6 +110,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7545F7DF1ED80CAD008A8B28 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				756568601EA5F1AF00A80466 /* UIView+DrawScreenShot.h */,
+				756568611EA5F1AF00A80466 /* UIView+DrawScreenShot.m */,
+				756568661EA60A7A00A80466 /* UIColor+DrawExtension.h */,
+				756568671EA60A7A00A80466 /* UIColor+DrawExtension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		7545F7E01ED80CDB008A8B28 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				756568631EA5FA0800A80466 /* XRTDrawViewController.h */,
+				756568641EA5FA0800A80466 /* XRTDrawViewController.m */,
+			);
+			name = VC;
+			sourceTree = "<group>";
+		};
 		75F671E91E971F9A00DD31B5 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +153,8 @@
 		75F671F41E971F9A00DD31B5 /* XRTDrawBoarderView */ = {
 			isa = PBXGroup;
 			children = (
+				7545F7E01ED80CDB008A8B28 /* VC */,
+				7545F7DF1ED80CAD008A8B28 /* Category */,
 				75F672281E971FA100DD31B5 /* View */,
 				75F671F81E971F9A00DD31B5 /* AppDelegate.h */,
 				75F671F91E971F9A00DD31B5 /* AppDelegate.m */,
@@ -174,6 +198,7 @@
 		75F672281E971FA100DD31B5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7545F7DD1ED7FC06008A8B28 /* icon_add.png */,
 				75F6722A1E97220D00DD31B5 /* XRTDrawBoarder.h */,
 				75F6722B1E97220D00DD31B5 /* XRTDrawBoarder.m */,
 				75F6722D1E97258800DD31B5 /* XRTDrawView.h */,
@@ -188,12 +213,6 @@
 				756568581EA5A98300A80466 /* XRTDrawToolView.m */,
 				7565685A1EA5B0BD00A80466 /* XRTDrawButton.h */,
 				7565685B1EA5B0BD00A80466 /* XRTDrawButton.m */,
-				756568601EA5F1AF00A80466 /* UIView+DrawScreenShot.h */,
-				756568611EA5F1AF00A80466 /* UIView+DrawScreenShot.m */,
-				756568631EA5FA0800A80466 /* XRTDrawViewController.h */,
-				756568641EA5FA0800A80466 /* XRTDrawViewController.m */,
-				756568661EA60A7A00A80466 /* UIColor+DrawExtension.h */,
-				756568671EA60A7A00A80466 /* UIColor+DrawExtension.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -307,6 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7545F7DE1ED7FC06008A8B28 /* icon_add.png in Resources */,
 				75F672051E971F9A00DD31B5 /* LaunchScreen.storyboard in Resources */,
 				75F672021E971F9A00DD31B5 /* Assets.xcassets in Resources */,
 				75F672001E971F9A00DD31B5 /* Main.storyboard in Resources */,

@@ -31,6 +31,7 @@
 - (XRTDrawBoarder *)boarder {
     if(_boarder == nil) {
         XRTDrawerConfiguration *configuration = [[XRTDrawerConfiguration alloc] init];
+        configuration.souceImage = self.sourceimage;
         _boarder = [[XRTDrawBoarder alloc] initWithFrame:self.view.bounds configuration:configuration];
         _boarder.delegate = self;
     }
@@ -43,5 +44,16 @@
         self.imageBlock(image);
     }
     [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+
+-(BOOL)shouldAutorotate
+{
+    return YES;
+}
+
+-(NSUInteger)supportedInterfaceOrientations
+{
+    return UIInterfaceOrientationMaskLandscape;
 }
 @end

@@ -25,12 +25,12 @@
 
 - (void)layoutSubviews {
     [super layoutSubviews];
-    CGFloat btnWidth  = self.frame.size.width/self.eventArray.count;
+    CGFloat btnWidth  = 100.0f;
     CGFloat btnHeight = self.frame.size.height;
     
     for (int index = 0; index < self.subviews.count; index ++) {
         XRTDrawButton *btn = self.subviews[index];
-        btn.frame = CGRectMake(btnWidth*index, 0, btnWidth, btnHeight);
+        btn.frame = CGRectMake( self.frame.size.width - (btnWidth + 10)*(self.subviews.count - index), 0, btnWidth, btnHeight);
     }
 }
 
@@ -57,7 +57,7 @@
 
 - (NSArray *)eventArray {
     if (_eventArray == nil) {
-        _eventArray = @[@(XRTToolViewEventLastStep),@(XRTToolViewEventNextStep),@(XRTToolViewEventSave),@(XRTToolViewEventDelete)];
+        _eventArray = @[@(XRTToolViewEventSave),@(XRTToolViewEventDelete)];
     }
     return _eventArray;
 }

@@ -16,6 +16,7 @@
 @property (nonatomic, strong) XRTDrawLayer *drwaLayer;
 @property (nonatomic, strong) XRTDrawBezierPath *currentPath;
 @property (nonatomic, strong) XRTDrawerConfiguration *configuration;
+@property (nonatomic, strong) UIImageView *bgImageView;
 @end
 
 @implementation XRTDrawView
@@ -70,6 +71,16 @@
     
 }
 
+
+#pragma mark - get
+- (UIImageView *)bgImageView {
+    if (_bgImageView == nil) {
+        _bgImageView = [[UIImageView alloc] init];
+        [self addSubview:_bgImageView];
+    }
+    return _bgImageView;
+}
+
 - (void)deleteAllLines {
     if (_drawLines.count == 0) return;
     [_drawLines makeObjectsPerformSelector:@selector(removeFromSuperlayer)];
@@ -90,4 +101,6 @@
     }
     return _canceLines;
 }
+
+
 @end

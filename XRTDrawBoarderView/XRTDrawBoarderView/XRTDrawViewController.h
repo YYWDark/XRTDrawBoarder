@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 typedef void(^ImageBlock)(UIImage *drawImage);
 @interface XRTDrawViewController : UIViewController
-@property (nonatomic, strong) ImageBlock imageBlock;
+@property (nonatomic, copy) ImageBlock imageBlock;
+@property (nonatomic, strong) UIImage *sourceimage;
 @end

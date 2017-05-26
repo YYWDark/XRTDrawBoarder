@@ -17,6 +17,10 @@
 
 - (instancetype)initWithFrame:(CGRect)frame
                 configuration:(XRTDrawerConfiguration *)configuration;
+
+//- (instancetype)initWithFrame:(CGRect)frame
+//                configuration:(XRTDrawerConfiguration *)configuration
+//                  sourceImage:(UIImage *)image;
 - (void)show;
 - (void)dismiss;
 
